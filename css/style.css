@@ -1,0 +1,10 @@
+tei-head {
+  color: red;
+ }
+
+ tei-head:before {
+  content: "["
+ }
+ tei-head:after {
+  content: "]"
+ }
