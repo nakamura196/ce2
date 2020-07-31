@@ -1,10 +1,22 @@
 tei-head {
   color: red;
- }
+}
 
- tei-head:before {
-  content: "["
- }
- tei-head:after {
-  content: "]"
- }
+/*
+tei-head:before {
+  content: "[";
+}
+tei-head:after {
+  content: "]";
+}
+*/
+
+tei-subst > tei-del {
+  display: none;
+  text-decoration: line-through;
+}
+
+tei-subst > tei-add {
+  color: blue;
+  cursor: pointer;
+}

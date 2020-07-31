@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>日記</title>
+            <author>中村覚</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>For training purposes.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Unknown.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <head>2020年7月31日　<subst>
+                  <add>晴れ</add>
+                  <del>雨</del>
+               </subst></head>
+
+            <p>今日は<persName ref="https://mith.umd.edu/people/person/raffaele-viglianti/">Raff
+               Viglianti</persName>氏の資料を参考に、CETEIceanについて学びました。</p>
+
+         </div>
+      </body>
+   </text>
+</TEI>
